@@ -6,7 +6,7 @@
 
 
 ### Overview
-- [Github Workflow for Shared Projects: CLI and Web]()
+- [Github Workflow for Shared Projects: CLI and Web](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#github-workflow-for-shared-projects-cli-and-web)
 - [Terms](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#terms)
 - [Useful CLI Commands](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#useful-cli-commands)
 - [Basic Bash Commands (Mac/Linux OS Terminals)](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#basic-bash-commands-maclinux-os-terminals)
