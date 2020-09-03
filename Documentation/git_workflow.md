@@ -10,7 +10,7 @@
 - [Terms]()
 - [Useful CLI Commands]()
 - [Basic Bash Commands (Mac/Linux OS Terminals)]()
-- [Concepts and Best Practices]()
+- [Concepts and Best Practices](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#concepts-and-best-practices)
 - [Common Issues](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#common-issues)
 
 
