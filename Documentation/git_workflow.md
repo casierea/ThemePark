@@ -11,7 +11,7 @@
 - [Useful CLI Commands]()
 - [Basic Bash Commands (Mac/Linux OS Terminals)]()
 - [Concepts and Best Practices]()
-- [Common Issues]()
+- [Common Issues](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#common-issues)
 
 
 ### Github Workflow for Shared Projects: CLI and Web
