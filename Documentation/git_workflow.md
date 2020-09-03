@@ -9,7 +9,7 @@
 - [Github Workflow for Shared Projects: CLI and Web]()
 - [Terms]()
 - [Useful CLI Commands]()
-- [Basic Bash Commands (Mac/Linux OS Terminals)]()
+- [Basic Bash Commands (Mac/Linux OS Terminals)](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#basic-bash-commands-maclinux-os-terminals)
 - [Concepts and Best Practices](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#concepts-and-best-practices)
 - [Common Issues](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#common-issues)
 
