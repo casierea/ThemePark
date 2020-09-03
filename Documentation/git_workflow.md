@@ -1,6 +1,6 @@
 ## Table of Contents
 - [Overview](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#overview)
-- [Usefule CLI Commands]()
+- [Usefule CLI Commands](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#useful-cli-commands)
 - [Basic Bash Commands (Mac/Linux OS Terminals)]()
 - [Github Workflow for Shared Projects: CLI and Web]()
 
