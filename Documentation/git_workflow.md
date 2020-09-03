@@ -6,7 +6,6 @@
 
 
 ### Overview
-- [Github Workflow for Shared Projects: CLI and Web](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#github-workflow-for-shared-projects-cli-and-web)
 - [Terms](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#terms))
 - [Concepts and Best Practices](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#concepts-and-best-practices)
 - [Common Issues](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#common-issues)
