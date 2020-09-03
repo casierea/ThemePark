@@ -7,12 +7,32 @@
 
 ### Overview
 - [Github Workflow for Shared Projects: CLI and Web](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#github-workflow-for-shared-projects-cli-and-web)
-- [Terms](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#terms)
-- [Useful CLI Commands](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#useful-cli-commands)
-- [Basic Bash Commands (Mac/Linux OS Terminals)](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#basic-bash-commands-maclinux-os-terminals)
+- [Terms](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#terms))
 - [Concepts and Best Practices](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#concepts-and-best-practices)
 - [Common Issues](https://github.com/casierea/ThemePark/blob/master/Documentation/git_workflow.md#common-issues)
 
+### Useful CLI Commands
+- Clone a repository: `git clone <url>`
+- Viewing remotes: `git remote -v`
+- Rename remote: `git remote rename <old name> <new name>`
+- Add remote: `git remote add <remote name> <remote URL>`
+- Remove remote: `git remote remove <remote name>`
+- Creating and checking out a branch: `git checkout -b <branch name>`
+- Checking out branches: `git checkout <branch name>`
+- Checking status of changed files: `git status`
+- Adding files: `git add <filename>`
+- Committing messages: `git commit -m "<message>"`
+- Deleting a file: `git rm <filename>`
+
+### Basic Bash Commands (Mac/Linux OS Terminals)
+- Change directory: `cd <directory path and name>`
+- Print current directory: `pwd`
+- List files and directories: `ls`
+- Count lines in file: `wc -l`
+- Delete file: `rm <file name>`
+- Create directory: `mkdir <directory>`
+- Create file: `touch <file name>`
+- Remove directory: `rmdir <directory>`
 
 ### Github Workflow for Shared Projects: CLI and Web
 - Fork the repository (Web UI)
@@ -64,29 +84,8 @@
 - Tagging: Labeling a commit to have a specific name that allows it to be referenced for later use.
 
 
-### Useful CLI Commands
-- Clone a repository: `git clone <url>`
-- Viewing remotes: `git remote -v`
-- Rename remote: `git remote rename <old name> <new name>`
-- Add remote: `git remote add <remote name> <remote URL>`
-- Remove remote: `git remote remove <remote name>`
-- Creating and checking out a branch: `git checkout -b <branch name>`
-- Checking out branches: `git checkout <branch name>`
-- Checking status of changed files: `git status`
-- Adding files: `git add <filename>`
-- Committing messages: `git commit -m "<message>"`
-- Deleting a file: `git rm <filename>`
 
 
-### Basic Bash Commands (Mac/Linux OS Terminals)
-- Change directory: `cd <directory path and name>`
-- Print current directory: `pwd`
-- List files and directories: `ls`
-- Count lines in file: `wc -l`
-- Delete file: `rm <file name>`
-- Create directory: `mkdir <directory>`
-- Create file: `touch <file name>`
-- Remove directory: `rmdir <directory>`
 
 
 ### Concepts and Best Practices
