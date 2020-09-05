@@ -34,8 +34,10 @@
 - Remove directory: `rmdir <directory>`
 
 ### Github Workflow for Shared Projects: CLI and Web
+- Create main team repository
 - Fork the repository (Web UI)
 - Clone your fork (CLI with URL from Web UI)
+	- `git clone <repo URL>`
 - Set up remotes: (CLI)
 	- Add upstream to main repository
 	- `git add remote upstream <remote url>`
