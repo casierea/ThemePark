@@ -5,7 +5,7 @@
 ## Project Description
 ## Setup and Requirements
 **Software and Versions**
-- [Unity version]()
+- [Unity version]() Unity 2020.1.4f1
 - [Maya version]()
 
 **Dependancies**
