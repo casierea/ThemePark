@@ -1,6 +1,6 @@
 ## Table of Contents
-- [Project Description]()
-- [Setup and Requirements]()
+- [Project Description](https://github.com/casierea/ThemePark/blob/master/README.md#project-description)
+- [Setup and Requirements](https://github.com/casierea/ThemePark/blob/master/README.md#setup-and-requirements)
 
 ## Project Description
 ## Setup and Requirements
