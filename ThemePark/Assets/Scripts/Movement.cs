@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public Vector3 offScreenPosition, startingPosition, finalPosition;
+    public Vector3 offScreenPosition, startingPosition;
     public float timeToTravel, percentTraveled;
 
     private bool _finished;
