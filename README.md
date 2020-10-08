@@ -5,8 +5,10 @@
 ## Project Description
 ## Setup and Requirements
 **Software and Versions**
-- [Unity version]() Unity 2020.1.4f1
+- [Unity version](https://unity3d.com/get-unity/download/archive) Unity 2020.1.7f1
 - [Maya version]()
+- [Substance version]()
+- [Houdini version]()
 
 **Dependancies**
 **Setup Instructions**
