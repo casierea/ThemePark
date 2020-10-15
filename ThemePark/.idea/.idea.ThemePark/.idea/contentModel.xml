@@ -13,6 +13,9 @@
           <e p="LeftAnimController.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
+            <e p="ElementsSO.cs" t="Include" />
+            <e p="POISO.cs" t="Include" />
+            <e p="RewardsSO.cs" t="Include" />
             <e p="Vector3SO.cs" t="Include" />
           </e>
           <e p="SimpleCameraController.cs" t="Include" />
