@@ -35,7 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POISO.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,6 +50,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Elements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +99,8 @@
       <updated>1602093421826</updated>
       <workItem from="1602093428017" duration="3584000" />
       <workItem from="1602170151934" duration="3924000" />
-      <workItem from="1602187999989" duration="1264000" />
+      <workItem from="1602187999989" duration="1863000" />
+      <workItem from="1602724561187" duration="1883000" />
     </task>
     <servers />
   </component>
