@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="Animations" t="Include">
             <e p="AnimController.cs" t="Include" />
+            <e p="AnimVector.cs" t="Include" />
             <e p="DownAnimController.cs" t="Include" />
             <e p="LeftAnimController.cs" t="Include" />
             <e p="UpAnimController.cs" t="Include" />
@@ -23,7 +24,6 @@
             <e p="RewardsSO.cs" t="Include" />
             <e p="Vector3SO.cs" t="Include" />
           </e>
-          <e p="ScrollAndPinch.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
