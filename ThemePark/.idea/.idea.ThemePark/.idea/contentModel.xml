@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\casie\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\casie\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ThemePark.1530349831.00" t="ExcludeRecursive" />
+    <e p="E:\Repos\thirdThemePark\ThemePark\ThemePark" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Animations" t="Include">
+            <e p="AnimController.cs" t="Include" />
+            <e p="AnimVector.cs" t="Include" />
+            <e p="DownAnimController.cs" t="Include" />
+            <e p="LeftAnimController.cs" t="Include" />
+            <e p="UpAnimController.cs" t="Include" />
+          </e>
+          <e p="DragObj.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="ElementsSO.cs" t="Include" />
+            <e p="POISO.cs" t="Include" />
+            <e p="publicGA.cs" t="Include" />
+            <e p="RewardsSO.cs" t="Include" />
+            <e p="Vector3SO.cs" t="Include" />
+          </e>
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="ThemePark.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
