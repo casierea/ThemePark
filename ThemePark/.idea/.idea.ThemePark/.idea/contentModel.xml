@@ -8,11 +8,23 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="AnimController.cs" t="Include" />
-          <e p="DownAnimController.cs" t="Include" />
-          <e p="LeftAnimController.cs" t="Include" />
+          <e p="Animations" t="Include">
+            <e p="AnimController.cs" t="Include" />
+            <e p="DownAnimController.cs" t="Include" />
+            <e p="LeftAnimController.cs" t="Include" />
+            <e p="UpAnimController.cs" t="Include" />
+          </e>
+          <e p="DragObj.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="ElementsSO.cs" t="Include" />
+            <e p="POISO.cs" t="Include" />
+            <e p="publicGA.cs" t="Include" />
+            <e p="RewardsSO.cs" t="Include" />
+            <e p="Vector3SO.cs" t="Include" />
+          </e>
+          <e p="ScrollAndPinch.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
-          <e p="UpAnimController.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">

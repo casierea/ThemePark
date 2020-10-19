@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85840075-af08-4824-afc2-358f289411d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Bathroom Icon Master.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Bathroom Icon Master.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Event Icon Master.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Event Icon Master.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Restaurant Icon Master.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/Restaurant Icon Master.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/User Icon Master.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/2D/Assets from XD/User Icon Master.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpAnimController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LeftAnimController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DownAnimController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollAndPinch.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,6 +46,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UpAnimController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Elements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDrag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollAndPinch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragObj.cs" />
       </list>
     </option>
   </component>
@@ -59,8 +65,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -84,6 +94,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="85840075-af08-4824-afc2-358f289411d8" name="Default Changelist" comment="" />
@@ -93,6 +106,11 @@
       <updated>1602093421826</updated>
       <workItem from="1602093428017" duration="3584000" />
       <workItem from="1602170151934" duration="3924000" />
+      <workItem from="1602187999989" duration="1863000" />
+      <workItem from="1602724561187" duration="1883000" />
+      <workItem from="1602786393807" duration="1364000" />
+      <workItem from="1602871055089" duration="537000" />
+      <workItem from="1603053756222" duration="683000" />
     </task>
     <servers />
   </component>
@@ -115,5 +133,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="637" y="169" key="SettingsEditor" timestamp="1602871272183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="637" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602871272183" />
+    <state x="799" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1602871533995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="799" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602871533995" />
   </component>
 </project>
