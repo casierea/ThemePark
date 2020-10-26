@@ -16,12 +16,12 @@ MonoBehaviour:
   WebsiteAddress: 
   Description: 
   Menu: 
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 95d6c09703bd6497d8569c8112540d6a, type: 3}
   Logo: {fileID: 0}
   Pictures: {fileID: 0}
-  Location: {x: 3, y: 0, z: 3}
-  ColorCode: {r: 0, g: 0, b: 0, a: 0}
-  BorderColor: {r: 0, g: 0, b: 0, a: 0}
+  Location: {x: -2, y: 0, z: -2}
+  ColorCode: {r: 0, g: 0, b: 0, a: 1}
+  BorderColor: {r: 0, g: 0, b: 0, a: 1}
   StartTimes:
   - 9
   - 13

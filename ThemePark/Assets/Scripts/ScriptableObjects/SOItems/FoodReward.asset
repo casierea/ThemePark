@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FoodReward
   m_EditorClassIdentifier: 
   Name: Food Reward
-  WebsiteAddress: 
+  WebsiteAddress: www.McDonalds.com
   Description: 1 free mcchicken!
-  Menu: 
-  Icon: {fileID: 0}
-  Logo: {fileID: 0}
-  Pictures: {fileID: 0}
-  BarCode: 0
+  Menu: WWW.McDonalds.com
+  Icon: {fileID: 21300000, guid: 49757b1380a1e6e49bc00560e14320f4, type: 3}
+  Logo: {fileID: 21300000, guid: 63d6ed89c1a3a0e1da69a7c9dec4e5d9, type: 3}
+  Pictures: {fileID: 21300000, guid: 42f16930ff8a60b49b82db9fb5c30eb2, type: 3}
+  BarCode: 12794682
