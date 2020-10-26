@@ -29,7 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animations/AnimVector.cs" root0="FORCE_HIGHLIGHTING" />
+
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,14 +41,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LeftAnimController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Elements.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollAndPinch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Animations/AnimVector.cs" />
+
       </list>
     </option>
   </component>
@@ -73,22 +71,16 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,11 +98,13 @@
       <workItem from="1602786393807" duration="1364000" />
       <workItem from="1602871055089" duration="537000" />
       <workItem from="1603053756222" duration="683000" />
+      <workItem from="1603132530404" duration="7542000" />
+      <workItem from="1603225062987" duration="12448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -119,12 +113,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -134,9 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="637" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602871272183" />
-    <state x="799" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1602871533995">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1121" y="308" width="672" height="678" key="search.everywhere.popup" timestamp="1603254834726">
+      <screen x="-1920" y="65" width="1920" height="1040" />
     </state>
+    <state x="-1121" y="308" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.65.1920.1040@-1920.65.1920.1040" timestamp="1603254834726" />
     <state x="799" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602871533995" />
   </component>
 </project>
