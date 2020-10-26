@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: GregsMagicFountain
   m_EditorClassIdentifier: 
   Name: Gregory's magical Fountain
-  WebsiteAddress: 
+  WebsiteAddress: www.facebook.com
   Description: Fountain that shoots glitter
-  Menu: 
-  Icon: {fileID: 0}
+  Menu: www.myspace.com
+  Icon: {fileID: 21300000, guid: 49757b1380a1e6e49bc00560e14320f4, type: 3}
   Logo: {fileID: 0}
   Pictures: {fileID: 0}
   Location: {x: 1, y: 0, z: 2}
-  ColorCode: {r: 0, g: 0.8124149, b: 1, a: 0}
-  BorderColor: {r: 0, g: 0, b: 0, a: 0}
+  ColorCode: {r: 0, g: 0.8124149, b: 1, a: 1}
+  BorderColor: {r: 1, g: 1, b: 1, a: 1}
   StartTimes: []
   EndTimes: []
   Status: 0
