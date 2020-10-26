@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85840075-af08-4824-afc2-358f289411d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThemePark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="85840075-af08-4824-afc2-358f289411d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,14 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/POIListImplementation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/POI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Reward.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POISO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RewardListImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,12 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollAndPinch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RewardListImplementation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/POIListImplementation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Reward.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/POI.cs" />
+
       </list>
     </option>
   </component>
