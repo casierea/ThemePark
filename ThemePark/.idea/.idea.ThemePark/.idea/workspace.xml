@@ -36,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/POIListImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PopUpFiller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/POI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,11 +60,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollAndPinch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RewardListImplementation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/POIListImplementation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Reward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RewardListImplementation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/RewardsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/POISO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/ElementsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PopUpFiller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/POIListImplementation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/POI.cs" />
       </list>
     </option>
@@ -118,6 +121,7 @@
       <workItem from="1603053756222" duration="683000" />
       <workItem from="1603132530404" duration="7542000" />
       <workItem from="1603225062987" duration="12448000" />
+      <workItem from="1603670327211" duration="19180000" />
     </task>
     <servers />
   </component>

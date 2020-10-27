@@ -3,5 +3,5 @@
 [CreateAssetMenu]
 public class RewardsSO : ElementsSO
 {
-    public float BarCode;
+    public float barCode;
 }
