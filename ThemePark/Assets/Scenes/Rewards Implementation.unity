@@ -363,7 +363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -137}
+  m_AnchoredPosition: {x: 0, y: -608.1}
   m_SizeDelta: {x: 435, y: 620}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403017612
@@ -841,6 +841,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d38592b6dc8a0974f899baa233fcd0b9, type: 2}
   - {fileID: 11400000, guid: c19dfcf3fdb6c684a877dadfc67811a6, type: 2}
   pOICatalogPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
+  screenNavigation: {fileID: 0}
 --- !u!1 &950519034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1096,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2e2fc9fce77916c4db07f4871d60e8a6, type: 2}
   - {fileID: 11400000, guid: 5d2dec6881cc8c3458ce024a2d0265ae, type: 2}
   rewardCatalogPrefab: {fileID: 8096512746807779836, guid: 8f7919628be104948aa5f54106e5bfd8, type: 3}
+  distanceBetween: 60
 --- !u!1 &1140012222
 GameObject:
   m_ObjectHideFlags: 0
