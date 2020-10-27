@@ -14,7 +14,7 @@ public class Reward : MonoBehaviour
     {
         _logo = Instantiate(imagePrefab, transform); //creates the logo as an image in the scene
 
-        _logo.GetComponent<Image>().sprite = info.Logo; //sets the sprite for the logo
+        _logo.GetComponent<Image>().sprite = info.logo; //sets the sprite for the logo
         _logo.GetComponent<Image>().SetNativeSize(); //sets the image to it's native size
         _logo.GetComponent<RectTransform>().localPosition = new Vector3(-145, 0, 0); //sets the position of the logo
 
@@ -29,7 +29,7 @@ public class Reward : MonoBehaviour
         
         _description = Instantiate(textPrefab, transform);
         
-        _description.GetComponent<Text>().text = info.Description;
+        _description.GetComponent<Text>().text = info.description;
         _description.GetComponent<Text>().fontStyle = FontStyle.Normal;
         _description.GetComponent<Text>().fontSize = 12;
         _description.GetComponent<RectTransform>().localPosition = new Vector3(-35,-17,0);

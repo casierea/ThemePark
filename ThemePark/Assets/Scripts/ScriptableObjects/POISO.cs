@@ -3,8 +3,8 @@
 [CreateAssetMenu]
 public class POISO : ElementsSO
 {
-    public Vector3 Location;
-    public Color ColorCode, BorderColor;
-    public float[] StartTimes, EndTimes;
-    public bool Status;
+    public Vector3 location;
+    public Color colorCode, borderColor;
+    public float[] startTimes, endTimes;
+    public bool status;
 }
