@@ -22,6 +22,8 @@ ThemePark/.idea/.idea.ThemePark/.idea/workspace.xml
 
 # Unity3D generated meta files
 *.pidb.meta
+*.xml
+
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
