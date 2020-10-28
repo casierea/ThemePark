@@ -43,5 +43,6 @@ public class PopUpFiller : MonoBehaviour
 
         _button.transform.localPosition = new Vector3(1, -.3f, 0);
         _button.transform.localScale = Vector3.one * .25f;
+        _button.GetComponent<SetNavigation>().info = info;
     }
 }

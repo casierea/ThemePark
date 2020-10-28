@@ -9,18 +9,20 @@ public class POI : MonoBehaviour
     private String _name, _websiteAddress, _description, _menu;
     private SpriteRenderer _icon;
     public GameObject spritePrefab, popUpPrefab;
-    private GameObject _fillLayer, _borderLayer, _popUpLayer;
+    private GameObject _iconLayer, _fillLayer, _borderLayer, _popUpLayer;
     public Sprite fill, border;
-    public bool popUpDisplay = false, running = false;
+    private bool _popUpDisplay = false, _running = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = info.location;
+        transform.localPosition = new Vector3(info.location.x, 0, info.location.y);
         
-        _icon = gameObject.GetComponent<SpriteRenderer>();
-        _icon.sprite = info.icon;
-        _icon.sortingOrder = 3;
+
+        _iconLayer = Instantiate(spritePrefab, transform);
+
+        _iconLayer.GetComponent<SpriteRenderer>().sprite = info.icon;
+        _iconLayer.GetComponent<SpriteRenderer>().sortingOrder = 3;
         
 
         _borderLayer = Instantiate(spritePrefab, transform);
@@ -39,7 +41,7 @@ public class POI : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (popUpDisplay == false)
+        if (_popUpDisplay == false)
         {
             if (_popUpLayer == null)
                 _popUpLayer = Instantiate(popUpPrefab, transform);
@@ -49,21 +51,21 @@ public class POI : MonoBehaviour
             _popUpLayer.transform.localPosition = new Vector3(0,-1,0);
 
             StartCoroutine(GrowPopUp());
-            popUpDisplay = true;
+            _popUpDisplay = true;
         }
         else
         {
             StartCoroutine(ShrinkPopUp());
-            popUpDisplay = false;
+            _popUpDisplay = false;
         }
 
     }
 
     public IEnumerator GrowPopUp()
     {
-        if (!running)
+        if (!_running)
         {
-            running = true;
+            _running = true;
             _popUpLayer.SetActive(true);
             while (_popUpLayer.transform.localScale.y < .99f)
             {
@@ -74,16 +76,16 @@ public class POI : MonoBehaviour
                 yield return null;
             }
             
-            running = false;
+            _running = false;
         }
 
     }
     
     public IEnumerator ShrinkPopUp()
     {
-        if (!running)
+        if (!_running)
         {
-            running = true;
+            _running = true;
             while (_popUpLayer.transform.localScale.y > .01f)
             {
                 _popUpLayer.transform.localScale =
@@ -94,7 +96,7 @@ public class POI : MonoBehaviour
             }
 
             _popUpLayer.SetActive(false);
-            running = false;
+            _running = false;
         }
     }
 }

@@ -4,7 +4,7 @@ public class POIListImplementation : MonoBehaviour
 {
 
     public POISO[] pOI;
-    public GameObject pOICatalogPrefab, screenNavigation;
+    public GameObject pOICatalogPrefab;
     private GameObject _tempPOI;
     
     // Start is called before the first frame update

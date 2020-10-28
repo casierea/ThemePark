@@ -19,7 +19,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 49757b1380a1e6e49bc00560e14320f4, type: 3}
   logo: {fileID: 21300000, guid: 48f638362abd3e3f2aa6d3e36e2a5736, type: 3}
   pictures: {fileID: 21300000, guid: 18df3a6d004a41ac29a53f926d0c012e, type: 3}
-  location: {x: 1, y: 0, z: 2}
+  location: {x: 50, y: 25, z: 0}
   colorCode: {r: 0, g: 0.5827389, b: 1, a: 1}
   borderColor: {r: 1, g: 1, b: 1, a: 1}
   startTimes: []
