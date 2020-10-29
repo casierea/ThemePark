@@ -11,6 +11,6 @@ public class SnapUISO : ScriptableObject
     //[SerializeField]
     //private Dictionary<string, Vector3> snapPositions = new Dictionary<string, Vector3>();
     //[Serializable]
-   
+    
     
 }

@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8998e569c12fc63cdb88f6228c1aeb3b, type: 3}
-  m_Name: MainUISnapPositions
+  m_Script: {fileID: 11500000, guid: 6a011c7602f17a38ea4c349aacdd58cd, type: 3}
+  m_Name: UISnapPositionsSO
   m_EditorClassIdentifier: 
+  _positions: []
