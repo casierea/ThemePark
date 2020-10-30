@@ -16,10 +16,10 @@ public class SnapUIPositionTool : MonoBehaviour
 
     #region ------------- Setup -------------
 
-    private void Start()
+    /*private void Start()
     {
         throw new NotImplementedException();
-    }
+    }*/
 
     #endregion
 
