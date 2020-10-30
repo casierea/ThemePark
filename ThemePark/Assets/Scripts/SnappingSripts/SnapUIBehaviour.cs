@@ -19,7 +19,8 @@ public class SnapUIBehaviour : MonoBehaviour
     private float _snapRadius = 20f;
     
     [Header("Visualization Options")]
-    [SerializeField] private bool _ShowVisualization = true;
+    [SerializeField]
+    private bool _ShowVisualization = true;
     
     /// <summary>
     /// Not in editor vars
@@ -114,7 +115,7 @@ public class SnapUIBehaviour : MonoBehaviour
     [CustomPropertyDrawer(typeof(ListToPopupAttribute))]
     public class ListPopupDrawer : PropertyDrawer
     {
-        private int selectedIndex = 0;
+        
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             ListToPopupAttribute atb = attribute as ListToPopupAttribute;
@@ -127,6 +128,7 @@ public class SnapUIBehaviour : MonoBehaviour
 
             if (stringList != null && stringList.Count != 0)
             {
+                int selectedIndex = Mathf.Max(stringList.IndexOf(property.stringValue),0);
                 EditorGUI.Popup(position, property.name, selectedIndex, stringList.ToArray());
                 property.stringValue = stringList[selectedIndex];
             }
