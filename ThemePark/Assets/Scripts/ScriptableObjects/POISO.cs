@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using Mapbox.Utils;
+using UnityEngine;
 
 [CreateAssetMenu]
 public class POISO : ElementsSO
 {
-    public Vector3 location;
+    public Vector2d location;
     public Color colorCode, borderColor;
     public float[] startTimes, endTimes;
     public bool status;
