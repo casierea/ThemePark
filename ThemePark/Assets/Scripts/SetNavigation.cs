@@ -1,5 +1,4 @@
-﻿using System;
-using Mapbox.Unity.MeshGeneration.Factories;
+﻿using Mapbox.Unity.MeshGeneration.Factories;
 using UnityEngine;
 
 public class SetNavigation : MonoBehaviour
@@ -18,9 +17,8 @@ public class SetNavigation : MonoBehaviour
 
     public void SetWayPoint()
     {
-        directions._waypoints[directions._waypoints.Length - 1].position = 
-            new Vector3(info.location.x, info.location.z, info.location.y);
-        directions._waypoints[directions._waypoints.Length - 1].parent = null;
+        directions._waypoints[directions._waypoints.Length - 1].parent = transform.parent.parent;
+        directions._waypoints[directions._waypoints.Length - 1].localPosition = Vector3.zero;
     }
 
     public void ResetWayPoint()
