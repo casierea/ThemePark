@@ -17,7 +17,7 @@ MonoBehaviour:
   description: The Hall of Flags stands as one of the most visually impressive hallways
     on campus.
   menu: 
-  icon: {fileID: 21300000, guid: d5f811a06bace804ea9ca2920bb9c765, type: 3}
+  icon: {fileID: 21300000, guid: 708d521f0ec93e5459d89c707b5003f6, type: 3}
   logo: {fileID: 0}
   pictures: {fileID: 0}
   location:
