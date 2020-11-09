@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapSpawn : MonoBehaviour
+public class test : MonoBehaviour
 {
     #region -------------- Variables --------------
 
@@ -39,4 +39,5 @@ public class MapSpawn : MonoBehaviour
     
 
     #endregion
+
 }
