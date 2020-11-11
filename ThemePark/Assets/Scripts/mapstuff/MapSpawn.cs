@@ -6,7 +6,7 @@ public class MapSpawn : MonoBehaviour
 {
     #region -------------- Variables --------------
 
-    
+    [SerializeField] private bool map = false;
 
     #endregion
 
@@ -18,25 +18,25 @@ public class MapSpawn : MonoBehaviour
 
     #region -------------- Work --------------
 
-    
+
 
     #endregion
 
     #region -------------- Methods --------------
 
-    
+
 
     #endregion
 
     #region -------------- Visualize --------------
 
-    
+
 
     #endregion
 
     #region -------------- Inspector --------------
 
-    
+
 
     #endregion
 }
