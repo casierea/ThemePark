@@ -16,7 +16,7 @@ MonoBehaviour:
   websiteAddress: Uvu.edu
   description: The UVU Testing Center is the place where hopes and dreams crumble
   menu: 
-  icon: {fileID: 21300000, guid: f002c9c286a68084887e5fa5a7dfd6c9, type: 3}
+  icon: {fileID: 21300000, guid: 4412d2f8f47b513428b2823fa66d55e5, type: 3}
   logo: {fileID: 0}
   pictures: {fileID: 0}
   location:
