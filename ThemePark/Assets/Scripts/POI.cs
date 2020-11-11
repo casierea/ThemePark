@@ -16,9 +16,6 @@ public class POI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.localPosition = new Vector3(info.location.x, 0, info.location.y);
-        
-
         _iconLayer = Instantiate(spritePrefab, transform);
 
         _iconLayer.GetComponent<SpriteRenderer>().sprite = info.icon;
@@ -72,7 +69,7 @@ public class POI : MonoBehaviour
                 _popUpLayer.transform.localScale =
                     Vector3.Lerp(_popUpLayer.transform.localScale, Vector3.one, 7f * Time.deltaTime);
                 _popUpLayer.transform.localPosition =
-                    Vector3.Lerp(_popUpLayer.transform.localPosition, Vector3.down, 7f * Time.deltaTime);
+                    Vector3.Lerp(_popUpLayer.transform.localPosition, new Vector3(0,-1,-1), 7f * Time.deltaTime);
                 yield return null;
             }
             
