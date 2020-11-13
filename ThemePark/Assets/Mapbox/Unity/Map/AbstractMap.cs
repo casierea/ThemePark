@@ -7,7 +7,7 @@ namespace Mapbox.Unity.Map
 {
 	using System;
 	using System.Collections;
-	using System.Collections.Generic;
+	using System.Collections.Generic;F
 	using System.Linq;
 	using Mapbox.Unity.Utilities;
 	using Utils;
