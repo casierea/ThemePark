@@ -1111,6 +1111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map
       objectReference: {fileID: 0}
+    - target: {fileID: 1257486800756004, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1155,9 +1159,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
       propertyPath: _previewOptions.isPreviewEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
       propertyPath: _tileProvider
@@ -1195,6 +1211,10 @@ PrefabInstance:
       propertyPath: _imagery._layerProperty.rasterOptions.useCompression
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _options.locationOptions.zoom
+      value: 17.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
 --- !u!1 &1697939999 stripped
@@ -1219,7 +1239,7 @@ MonoBehaviour:
   _referenceCamera: {fileID: 87174010}
   _mapManager: {fileID: 712020083}
   _useDegreeMethod: 0
---- !u!114 &1697940003
+--- !u!114 &1697940001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1228,16 +1248,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1697939999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21c34c451b8894c42bcf771d090771e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   map: {fileID: 712020083}
   positionAndInformation:
-  - info: {fileID: 11400000, guid: 5ddda2e851aa0e64fb0dd7c29c5f0aab, type: 2}
+  - info: {fileID: 11400000, guid: 93d7966778c108e52acdb239c6601781, type: 2}
     locationStrings: 40.277624, -111.71418
-  - info: {fileID: 11400000, guid: 8bc35bfaca9223141b9cf4cccbfbbc93, type: 2}
+  - info: {fileID: 11400000, guid: ee03cc524f476fb74a975f6b03b47262, type: 2}
     locationStrings: 40.282236, -111.722522
-  spawnScale: 20
+  spawnScale: 25
   markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
 --- !u!1 &1737202129
 GameObject:
@@ -1382,6 +1402,198 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737202129}
   m_CullTransparentMesh: 0
+--- !u!1001 &1789214620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1257486800756004, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_Name
+      value: Map (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257486800756004, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867834046800562, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _previewOptions.isPreviewEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _tileProvider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _options.locationOptions.latitudeLongitude
+      value: 34.7338, -86.6741
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _imagery._layerProperty.sourceType
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Id
+      value: mapbox://styles/benshurts/ckgv8s2lg00ow19nx4lukhdz7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _terrain._layerProperty.sourceType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _terrain._layerProperty.elevationLayerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _options.extentOptions.extentType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _options.extentOptions.defaultExtents.cameraBoundsOptions.camera
+      value: 
+      objectReference: {fileID: 87174010}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _imagery._layerProperty.rasterOptions.useCompression
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+      propertyPath: _options.locationOptions.zoom
+      value: 17.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+--- !u!1 &1789214621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1257486800756004, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+  m_PrefabInstance: {fileID: 1789214620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1789214622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
+  m_PrefabInstance: {fileID: 1789214620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789214621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd961b1c9541a4cee99686069ecce852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1789214624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789214621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 1789214622}
+  positionAndInformation:
+  - info: {fileID: 11400000, guid: 900171e26f3b5f3a0a7fce1531c08f8c, type: 2}
+    locationStrings: 34.7338, -86.6741
+  - info: {fileID: 11400000, guid: ad511124a0eac1c589e037c682c91b96, type: 2}
+    locationStrings: 34.715353, -86.673434
+  spawnScale: 100
+  markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
+--- !u!114 &1789214625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789214621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 1789214622}
+  positionAndInformation:
+  - info: {fileID: 11400000, guid: 93d7966778c108e52acdb239c6601781, type: 2}
+    locationStrings: 40.277624, -111.71418
+  - info: {fileID: 11400000, guid: ee03cc524f476fb74a975f6b03b47262, type: 2}
+    locationStrings: 40.282236, -111.722522
+  - info: {fileID: 11400000, guid: 900171e26f3b5f3a0a7fce1531c08f8c, type: 2}
+    locationStrings: 34.7338, -86.6741
+  spawnScale: 25
+  markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
+--- !u!114 &1789214626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789214621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c699b8e1864b4b248acb7a04ede9480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _panSpeed: 1
+  _zoomSpeed: 1
+  _referenceCamera: {fileID: 87174010}
+  _mapManager: {fileID: 1789214622}
+  _useDegreeMethod: 0
 --- !u!1 &276557326608476405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,7 +1619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276557326608476405}
   m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: -19.2}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children:
   - {fileID: 1679241520}
