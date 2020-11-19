@@ -1,13 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO.IsolatedStorage;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
-
 public class PopUpFiller : MonoBehaviour
 {
+    
+    [System.Serializable]
+    
+    public struct PossibleIcons
+    {
+        public string iconName, iconType, iconDescription;
+        public Sprite icon;
+    }
 
-    public POISO info;
+    
+    #region -------------- Variables --------------
+        public MapboxPointSO info;
+        public TextMeshPro infoDescription, infoName;
+        public SpriteRenderer infoIcon;
+        [SerializeField]
+        public PossibleIcons[] icons;
+    #endregion
+
+
+    public void UpdatePopUp()
+    {
+        infoDescription.text = info.description;
+        infoName.text = info.name;
+        infoIcon.sprite = null;
+        for (int i = 0; i < icons.Length; i++)
+        {
+            if (info.type.ToLower() == icons[i].iconType.ToLower())
+            {
+                infoIcon.sprite = icons[i].icon;
+            }
+
+            if (info.name.ToLower() == icons[i].iconName.ToLower())
+            {
+                
+            }
+        }
+    }
+
+
+    /*public POISO info;
     public GameObject textPrefab, spritePrefab, buttonPrefab;
     private GameObject _name, _description, _icon, _button;
     
@@ -44,5 +78,5 @@ public class PopUpFiller : MonoBehaviour
         _button.transform.localPosition = new Vector3(1, -.3f, 0);
         _button.transform.localScale = Vector3.one * .25f;
         _button.GetComponent<SetNavigation>().info = info;
-    }
+    }*/
 }
