@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 87174008}
   - component: {fileID: 87174007}
   - component: {fileID: 87174006}
+  - component: {fileID: 87174012}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -262,6 +263,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &87174012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87174005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664c4e81c0ea2cf4580f8e68bf923ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingObj: {fileID: 87174011}
+  moveSpeed: -0.5
 --- !u!1 &102882880
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1210217416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1201,7 +1216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
       propertyPath: _options.extentOptions.extentType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114478715909612932, guid: e6b749c6d877f4c19a5a5c3c0783d53b, type: 3}
       propertyPath: _options.extentOptions.defaultExtents.cameraBoundsOptions.camera
@@ -1236,7 +1251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _panSpeed: 1
   _zoomSpeed: 1
-  _referenceCamera: {fileID: 87174010}
+  _referenceCamera: {fileID: 0}
   _mapManager: {fileID: 712020083}
   _useDegreeMethod: 0
 --- !u!114 &1697940001
@@ -1251,14 +1266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 712020083}
-  positionAndInformation:
-  - info: {fileID: 11400000, guid: 93d7966778c108e52acdb239c6601781, type: 2}
-    locationStrings: 40.277624, -111.71418
-  - info: {fileID: 11400000, guid: ee03cc524f476fb74a975f6b03b47262, type: 2}
-    locationStrings: 40.282236, -111.722522
-  spawnScale: 25
-  markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
 --- !u!1 &1737202129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,14 +1554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 1789214622}
-  positionAndInformation:
-  - info: {fileID: 11400000, guid: 900171e26f3b5f3a0a7fce1531c08f8c, type: 2}
-    locationStrings: 34.7338, -86.6741
-  - info: {fileID: 11400000, guid: ad511124a0eac1c589e037c682c91b96, type: 2}
-    locationStrings: 34.715353, -86.673434
-  spawnScale: 100
-  markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
 --- !u!114 &1789214625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,16 +1566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2664de62f870c7055a6d67a8b88f59e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 1789214622}
-  positionAndInformation:
-  - info: {fileID: 11400000, guid: 93d7966778c108e52acdb239c6601781, type: 2}
-    locationStrings: 40.277624, -111.71418
-  - info: {fileID: 11400000, guid: ee03cc524f476fb74a975f6b03b47262, type: 2}
-    locationStrings: 40.282236, -111.722522
-  - info: {fileID: 11400000, guid: 900171e26f3b5f3a0a7fce1531c08f8c, type: 2}
-    locationStrings: 34.7338, -86.6741
-  spawnScale: 25
-  markerPrefab: {fileID: 4674940652403630535, guid: 961abdd27ce56774d81e84ae00755601, type: 3}
 --- !u!114 &1789214626
 MonoBehaviour:
   m_ObjectHideFlags: 0
