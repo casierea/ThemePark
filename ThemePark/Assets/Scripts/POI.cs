@@ -43,7 +43,7 @@ public class POI : MonoBehaviour
             if (_popUpLayer == null)
                 _popUpLayer = Instantiate(popUpPrefab, transform);
 
-            //_popUpLayer.GetComponent<PopUpFiller>().info = info;
+            _popUpLayer.GetComponent<PopUpFiller>().info = info;
             _popUpLayer.transform.localScale = new Vector3(0,0,0);
             _popUpLayer.transform.localPosition = new Vector3(0,-1,0);
 
