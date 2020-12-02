@@ -4,7 +4,7 @@
 #
 Library/
 Temp/
-Obj/
+obj/
 Build/
 Assets/Ludiq
 Assets/Ludiq.Generated
