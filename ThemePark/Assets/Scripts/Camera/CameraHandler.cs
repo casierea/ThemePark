@@ -65,7 +65,8 @@ public class CameraHandler : MonoBehaviour {
                 lastZoomPositions = newPositions;
             }
             break;
-            
+        case 3: // rotating
+            break;
         default: 
             wasZoomingLastFrame = false;
             break;
@@ -110,5 +111,15 @@ public class CameraHandler : MonoBehaviour {
         }
     
         cam.fieldOfView = Mathf.Clamp(cam.fieldOfView - (offset * speed), ZoomBounds[0], ZoomBounds[1]);
+    }
+
+    void RotateCamera(float offset, float speed)
+    {
+        
+    }
+
+    void MoveToPosition(float smoothAmount)
+    {
+        
     }
 }
