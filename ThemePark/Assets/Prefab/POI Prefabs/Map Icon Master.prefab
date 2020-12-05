@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 0}
+  popUpFiller: {fileID: 11400000, guid: 8492ec531fe2f9e45b14d634c8d902f8, type: 2}
   spritePrefab: {fileID: 2466886382325542520, guid: 9829aaa8424fb2b489da38fe8101a62e, type: 3}
   popUpPrefab: {fileID: 4721867849531426647, guid: a4bdaf5f8de9b004c8794a945309acf3, type: 3}
   fill: {fileID: 21300000, guid: 56af22477e0aa2f408949da51c8cad11, type: 3}
