@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2da4b783c5b42a4e9b05d82f4ad7846, type: 3}
-  m_Name: POI Master
+  m_Script: {fileID: 11500000, guid: ad15f1b561f12134698c087bb8f673b7, type: 3}
+  m_Name: POIFilters
   m_EditorClassIdentifier: 
-  name: 
-  type: Stadium
-  description: 
