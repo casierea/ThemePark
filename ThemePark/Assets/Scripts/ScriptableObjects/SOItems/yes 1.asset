@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a60ad19b03d4e644a65e87e2b815f18, type: 3}
-  m_Name: CoolReward
+  m_Name: yes 1
   m_EditorClassIdentifier: 
-  Name: Cool Boy Award
-  websiteAddress: facebook.com
-  description: you're gonna love this place
-  menu: facebook.com
+  Name: Name
+  filter: Restaurant
+  websiteAddress: yes.com
+  description: yes yes yes yes yes
+  menu: yes.com
   icon: {fileID: 21300000, guid: 49757b1380a1e6e49bc00560e14320f4, type: 3}
   logo: {fileID: 21300000, guid: 48f638362abd3e3f2aa6d3e36e2a5736, type: 3}
-  pictures: {fileID: 0}
-  barCode: 17596584
+  pictures: {fileID: 21300000, guid: ce909b6672e232f9da5395b4364f6863, type: 3}
+  barCode: 0

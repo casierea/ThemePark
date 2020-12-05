@@ -9,21 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191b8772748f2b745a5b28af31bb56b8, type: 3}
-  m_Name: Tridium
+  m_Script: {fileID: 11500000, guid: 5a60ad19b03d4e644a65e87e2b815f18, type: 3}
+  m_Name: RewardTemplate
   m_EditorClassIdentifier: 
-  Name: Tridium
+  Name: 
+  filter: 
   websiteAddress: 
   description: 
   menu: 
-  icon: {fileID: 21300000, guid: c80c2e2443adb6d478363a64f4adfb6e, type: 3}
+  icon: {fileID: 0}
   logo: {fileID: 0}
   pictures: {fileID: 0}
-  location:
-    x: 34.7338
-    y: -86.6741
-  colorCode: {r: 0, g: 0.6422057, b: 1, a: 1}
-  borderColor: {r: 1, g: 0, b: 0, a: 1}
-  startTimes: []
-  endTimes: []
-  status: 0
+  barCode: 0
