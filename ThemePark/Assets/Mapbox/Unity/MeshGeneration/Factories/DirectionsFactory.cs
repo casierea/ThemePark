@@ -1,3 +1,5 @@
+using System;
+
 namespace Mapbox.Unity.MeshGeneration.Factories
 {
 	using UnityEngine;
@@ -13,6 +15,9 @@ namespace Mapbox.Unity.MeshGeneration.Factories
 
 	public class DirectionsFactory : MonoBehaviour
 	{
+
+		public FloatData duration, arrivalMinute, arrivalHour, distance;
+
 		[SerializeField]
 		AbstractMap _map;
 
@@ -82,6 +87,8 @@ namespace Mapbox.Unity.MeshGeneration.Factories
 			var _directionResource = new DirectionResource(wp, RoutingProfile.Walking);
 			_directionResource.Steps = true;
 			_directions.Query(_directionResource, HandleDirectionsResponse);
+			var route = new Route();
+
 		}
 
 		public IEnumerator QueryTimer()
@@ -129,6 +136,43 @@ namespace Mapbox.Unity.MeshGeneration.Factories
 			}
 
 			CreateGameObject(meshData);
+			
+			//set the duration of the travel;
+			duration.data = 0f;
+			foreach (var i in response.Routes)
+			{
+				duration.data += (float)i.Duration;
+			}
+			
+			duration.data /= 60;
+			duration.data -= duration.data % 1;
+			duration.data++;
+			
+			//set the Arrival time
+			arrivalMinute.data = (DateTime.Now.Minute + duration.data) % 60f;
+
+			float tempTime = (DateTime.Now.Minute + duration.data) / 60f;
+			
+			if (tempTime > 1)
+			{
+				tempTime -= tempTime % 1;
+				arrivalHour.data = DateTime.Now.Hour + tempTime;
+			}
+			else
+			{
+				arrivalHour.data = DateTime.Now.Hour;
+			}
+			
+			
+			//set the distance to travel
+			foreach (var j in response.Routes)
+			{
+				distance.data += (float)j.Distance;
+			}
+
+			distance.data = distance.data / 1609;
+			distance.data = (float)Math.Round(distance.data, 2);
+
 		}
 
 		GameObject CreateGameObject(MeshData data)
