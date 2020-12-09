@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad15f1b561f12134698c087bb8f673b7, type: 3}
-  m_Name: RewardFilters
+  m_Script: {fileID: 11500000, guid: d73be48482da8d342a270be30bda28dc, type: 3}
+  m_Name: rewardsFilters
   m_EditorClassIdentifier: 
