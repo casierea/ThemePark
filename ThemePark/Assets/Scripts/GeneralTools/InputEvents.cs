@@ -9,7 +9,8 @@ public class InputEvents : MonoBehaviour
     #region -------------- Variables --------------
 
     public UnityEvent OnLeftClick,OnRightClick;
-
+    
+    
     #endregion
 
     #region -------------- Setup --------------
@@ -22,7 +23,8 @@ public class InputEvents : MonoBehaviour
 
     private void Update()
     {
-        throw new NotImplementedException();
+        OnMouseButtonLeft();
+        OnMouseButtonRight();
     }
 
 
@@ -40,7 +42,7 @@ public class InputEvents : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            OnLeftClick?.Invoke();
+            OnLeftClick.Invoke();
         }
     }
 

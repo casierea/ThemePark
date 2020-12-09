@@ -1,8 +1,16 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
+[RequireComponent(typeof(SelectionManager))]
+public class CameraHandler : MonoBehaviour
+{
 
-public class CameraHandler : MonoBehaviour {
+    [SerializeField] private Vector3SO _selectionLoc;
+    [SerializeField] private GameAction _clickAction;
+    [SerializeField] private float _cameraHeight = 10f;
 
+    [SerializeField] private float _cameraOffset = 5f;
+    // private camera stuff
     private static readonly float PanSpeed = 20f;
     private static readonly float ZoomSpeedTouch = 0.1f;
     private static readonly float ZoomSpeedMouse = 0.5f;
@@ -13,21 +21,49 @@ public class CameraHandler : MonoBehaviour {
     
     private Camera cam;
     
+    private Vector3 _resetPos = new Vector3(0f,0f,0f);
+    
+    private SelectionManager _selectionManager;
+    //[SerializeField]private SelectionManager _selectionManager;
+
+    //private void SubscribeToEvent(SelectionManager i) => i.SelectObj(); 
+    
     private Vector3 lastPanPosition;
     private int panFingerId; // Touch mode only
     
     private bool wasZoomingLastFrame; // Touch mode only
     private Vector2[] lastZoomPositions; // Touch mode only
 
+    private bool _isMovingToPos = false;
     void Awake() {
         cam = GetComponent<Camera>();
+        //_selectionManager = GetComponent<SelectionManager>();
     }
-    
+
+    private void Start()
+    {
+        _resetPos.y = _cameraHeight;
+        //_selectionManager = _selectionManager.GetComponent<SelectionManager>();
+        //_selectionManager.SelectObj += MoveToPosition;
+        //_selectionManager = new SelectionManager();
+        //_selectionManager.SelectObj += MoveToPosition;
+    }
+
     void Update() {
-        if (Input.touchSupported && Application.platform != RuntimePlatform.WebGLPlayer) {
-            HandleTouch();
-        } else {
-            HandleMouse();
+        if (!_isMovingToPos)
+        {
+            if (Input.touchSupported && Application.platform != RuntimePlatform.WebGLPlayer)
+            {
+                HandleTouch();
+            }
+            else
+            {
+                HandleMouse();
+            }
+        }
+        else
+        {
+            //MoveToPosition();
         }
     }
     
@@ -118,8 +154,23 @@ public class CameraHandler : MonoBehaviour {
         
     }
 
-    void MoveToPosition(float smoothAmount)
+    public void MoveToPosition()
     {
+        _isMovingToPos = true;
+        Debug.Log("Move To Position");
+        /*
+        _selectionLoc.Position = _resetPos;
+        _selectionLoc.Position.y = transform.position.y;
+        _selectionLoc.Position = _selectionLoc.Position - new Vector3(0f, 5f, 0f);
+        */
+        //_selectionLoc.Position.z = transform.position.z - 2;
+        Vector3 _newPos = new Vector3();
+        Vector3 _offset = new Vector3(_selectionLoc.Position.x,_cameraHeight,_selectionLoc.Position.z - _cameraOffset);
+        Debug.Log("select loc " + _selectionLoc.Position);
+        transform.position = _offset;
         
+        
+        _isMovingToPos = false;
+        //PanCamera();
     }
 }
