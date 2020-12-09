@@ -8,12 +8,16 @@ public class POIPrefabFiller : MonoBehaviour
 
     //public PrefebElement[] prefabStruct;
     
+    
     [System.Serializable]           // Expose the struct inside the Unity Inspector
     public struct PrefabElement
     {
         public GameObject prefab;
         public string tag;
     }
+    
+    [Header("Point of Interest Options")]
+    public PrefabElement Elements;
 
     #endregion
 
@@ -24,7 +28,7 @@ public class POIPrefabFiller : MonoBehaviour
     #endregion
 
     #region -------------- Work --------------
-
+    
 
 
     #endregion
