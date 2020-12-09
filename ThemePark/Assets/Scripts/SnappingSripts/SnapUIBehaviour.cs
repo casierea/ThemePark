@@ -34,6 +34,7 @@ public class SnapUIBehaviour : MonoBehaviour
     private void Start()
     {
         _thisObjRectTransform = GetComponent<RectTransform>();
+        
     }
 
     #endregion
