@@ -25,6 +25,5 @@ public class PanelHeight : MonoBehaviour
     public void Update()
     {
         RT.sizeDelta = new Vector2(500, count * distance);
-        Debug.Log(list.dict.Count);
     }
 }
