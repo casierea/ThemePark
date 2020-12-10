@@ -32,7 +32,7 @@ public class RewardListImplementation : MonoBehaviour
             temp.Set(rewards[i].name, rewards[i].filter, rewards[i].websiteAddress, rewards[i].description, 
                 rewards[i].menu, rewards[i].icon, rewards[i].logo, rewards[i].pictures, rewards[i].BarCode);
             _tempReward = Instantiate(rewardCatalogPrefab, transform);
-            _tempReward.GetComponent<RectTransform>().position += Vector3.down * (distanceBetween * i);
+            _tempReward.GetComponent<RectTransform>().position += Vector3.back * (distanceBetween * i);
             _tempReward.GetComponent<Reward>().info = temp;
             
             if (filterDict.dict.ContainsKey(rewards[i].filter))
