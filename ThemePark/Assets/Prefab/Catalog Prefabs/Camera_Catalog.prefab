@@ -227,7 +227,7 @@ MonoBehaviour:
   rewardTemplate: {fileID: 11400000, guid: 8f1e34d4bb5f61c4f9d11a110da306e3, type: 2}
   rewardCatalogPrefab: {fileID: 8096512746807779836, guid: 8f7919628be104948aa5f54106e5bfd8, type: 3}
   distanceBetween: 1.8
-  filterDict: {fileID: 11400000, guid: e803f9aedf6d16649bba48d5b0b6d2f1, type: 2}
+
 --- !u!1 &2244924758667000676
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
   rewardTemplate: {fileID: 11400000, guid: 8f1e34d4bb5f61c4f9d11a110da306e3, type: 2}
   rewardCatalogPrefab: {fileID: 8096512746807779836, guid: 8f7919628be104948aa5f54106e5bfd8, type: 3}
   distanceBetween: 40
-  filterDict: {fileID: 11400000, guid: e803f9aedf6d16649bba48d5b0b6d2f1, type: 2}
+
 --- !u!1 &2244924758992554132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,7 +1920,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RT: {fileID: 7509386867262913727}
-  list: {fileID: 11400000, guid: e803f9aedf6d16649bba48d5b0b6d2f1, type: 2}
+
+  list: {fileID: 11400000, guid: 4f4d45cf75af2c44e8c24ada3841d9f3, type: 2}
+
   distance: 54
   count: 0
 --- !u!1 &7509386867268919349

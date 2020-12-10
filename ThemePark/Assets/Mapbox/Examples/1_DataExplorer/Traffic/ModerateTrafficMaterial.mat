@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2242516968288932530
+--- !u!114 &-1105198336570442148
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,15 +61,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 0845c42fade8c7146ad7292865320ac3, type: 3}
         m_Scale: {x: 0.1, y: 1}
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-        m_Offset: {x: 4.579458, y: 0.2}
-=======
-        m_Offset: {x: 0.6500303, y: 0.2}
->>>>>>> Stashed changes
-=======
-        m_Offset: {x: 8.974656, y: 0.2}
->>>>>>> master
+        m_Offset: {x: 0.59010184, y: 0.2}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}

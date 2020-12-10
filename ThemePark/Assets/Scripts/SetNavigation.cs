@@ -17,13 +17,13 @@ public class SetNavigation : MonoBehaviour
 
     public void SetWayPoint()
     {
-        directions._waypoints[directions._waypoints.Length - 1].parent = transform.parent.parent;
-        directions._waypoints[directions._waypoints.Length - 1].localPosition = Vector3.zero;
+        //directions._waypoints[directions._waypoints.Length - 1].parent = transform.parent.parent;
+        //directions._waypoints[directions._waypoints.Length - 1].localPosition = Vector3.zero;
     }
 
     public void ResetWayPoint()
     {
-        directions._waypoints[directions._waypoints.Length - 1].position = userPosition.transform.position;
+        //directions._waypoints[directions._waypoints.Length - 1].position = userPosition.transform.position;
     }
 
     public void OnMouseUpAsButton()
