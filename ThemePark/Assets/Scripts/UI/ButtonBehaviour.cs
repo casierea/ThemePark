@@ -52,6 +52,8 @@ public class ButtonBehaviour : MonoBehaviour
     
 }
 
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(ButtonBehaviour))]
 public class TestOnInspector : Editor
 {
@@ -69,3 +71,5 @@ public class TestOnInspector : Editor
         
     }
 }
+
+#endif
