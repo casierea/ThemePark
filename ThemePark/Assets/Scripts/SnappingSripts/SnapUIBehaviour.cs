@@ -102,6 +102,7 @@ public class SnapUIBehaviour : MonoBehaviour
 
     #region ---------------- Inspector Stuff ----------------
 
+    /*
     public class ListToPopupAttribute : PropertyAttribute
     {
         public Type myType;
@@ -152,6 +153,7 @@ public class SnapUIBehaviour : MonoBehaviour
             myList = new List<string> {"1","2","3"};
         }
     }
+    */
     
 
     #endregion

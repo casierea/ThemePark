@@ -38,7 +38,7 @@ public class Reward : MonoBehaviour
         _useButton = Instantiate(buttonPrefab, transform);
         
         _useButton.GetComponent<Button>().onClick.AddListener(UseButtonClicked);
-        _useButton.GetComponent<RectTransform>().localPosition = new Vector3(145,0,0);
+        _useButton.GetComponent<RectTransform>().localPosition = new Vector3(120,0,0);
     }
 
     public void UseButtonClicked()
