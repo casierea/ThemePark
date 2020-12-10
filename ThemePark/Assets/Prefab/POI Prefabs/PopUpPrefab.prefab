@@ -96,6 +96,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 0}
-  textPrefab: {fileID: 308864282620776489, guid: 8d54e05b932dd6c4993fc17d03880751, type: 3}
-  spritePrefab: {fileID: 2466886382325542520, guid: 9829aaa8424fb2b489da38fe8101a62e, type: 3}
-  buttonPrefab: {fileID: 5270915034596500272, guid: 072b3540332e21a41bc94838f6f627b0, type: 3}
+  icon: {fileID: 0}
+  Name: {fileID: 0}
+  description: {fileID: 0}
