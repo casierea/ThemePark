@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7b1a86089afd64c94cef6a9b84b580, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 712020083}
+
   LatLon: {fileID: 11400000, guid: 3ca4dd0ed20cdf542b3f600c19a8168b, type: 2}
   obj: {fileID: 276557326608476405}
 --- !u!1001 &7509386866581832236
@@ -803,19 +803,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8768506662955789390, guid: ad424824b714ff7478ff685e506679c6, type: 3}
       propertyPath: m_AnchoredPosition.x
+
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8768506663854756797, guid: ad424824b714ff7478ff685e506679c6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8768506663854756797, guid: ad424824b714ff7478ff685e506679c6, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8768506663854756797, guid: ad424824b714ff7478ff685e506679c6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
+
       objectReference: {fileID: 0}
     - target: {fileID: 8768506663854756797, guid: ad424824b714ff7478ff685e506679c6, type: 3}
       propertyPath: m_SizeDelta.x
@@ -825,5 +818,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad424824b714ff7478ff685e506679c6, type: 3}
