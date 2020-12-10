@@ -22,7 +22,7 @@ Assets/Ludiq.Generated
 
 # Unity3D generated meta files
 *.pidb.meta
-*.meta
+#*.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -35,3 +35,11 @@ ThemePark/.idea
 ThemePark/Assets/Ludiq/
 
 ThemePark/Assets/Ludiq.Generated/
+
+ThemePark/Assets/Ludiq.Generated.meta
+
+ThemePark/Assets/Ludiq.meta
+
+ThemePark/Assets/ProceduralUIImage.meta
+
+gitignore
