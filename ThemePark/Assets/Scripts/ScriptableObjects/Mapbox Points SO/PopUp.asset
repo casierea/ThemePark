@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 191b8772748f2b745a5b28af31bb56b8, type: 3}
   m_Name: PopUp
   m_EditorClassIdentifier: 
-  Name: Baby girl Bar
-  filter: Bar
-  websiteAddress: bbgb.com
-  description: i feel uncomfortable
-  menu: bbgb.com
+  Name: Mcdonalds
+  filter: Restaurant
+  websiteAddress: www.Mcdonalds.com
+  description: eat fresh
+  menu: www.mcdonalds.com
   icon: {fileID: 21300000, guid: 49757b1380a1e6e49bc00560e14320f4, type: 3}
-  logo: {fileID: 21300000, guid: 63d6ed89c1a3a0e1da69a7c9dec4e5d9, type: 3}
+  logo: {fileID: 21300000, guid: 48f638362abd3e3f2aa6d3e36e2a5736, type: 3}
   pictures: {fileID: 0}
   location:
-    x: 40.282314
-    y: -111.720423
-  colorCode: {r: 0.05724919, g: 1, b: 0, a: 1}
+    x: 40.282236
+    y: -111.722522
+  colorCode: {r: 0, g: 0.75172853, b: 1, a: 1}
   borderColor: {r: 1, g: 1, b: 1, a: 1}
