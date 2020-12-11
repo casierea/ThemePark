@@ -1,6 +1,18 @@
 fileFormatVersion: 2
 guid: 218956a5c2a6e42d6a60afccf80b002b
 TrueTypeFontImporter:
+<<<<<<< HEAD
+  serializedVersion: 2
+  fontSize: 5
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  customCharacters: 
+  fontRenderingMode: 1
+=======
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
@@ -18,6 +30,7 @@ TrueTypeFontImporter:
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 
