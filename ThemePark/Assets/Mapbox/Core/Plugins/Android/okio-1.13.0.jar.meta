@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: 3bf40023b8d50c0438abda790c4fc791
+<<<<<<< HEAD
 timeCreated: 1495640456
 licenseType: Pro
 PluginImporter:
@@ -18,6 +19,35 @@ PluginImporter:
     data:
       enabled: 0
       settings: {}
+=======
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 

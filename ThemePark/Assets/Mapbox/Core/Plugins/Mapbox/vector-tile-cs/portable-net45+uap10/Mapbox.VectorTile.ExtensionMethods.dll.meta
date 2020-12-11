@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: aa8511f503d809c42a273bde2c2f2021
 PluginImporter:
   externalObjects: {}
@@ -91,3 +92,6 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: aa8511f503d809c42a273bde2c2f2021
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143

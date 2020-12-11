@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: a3fee75616c5ab0449e841e6fc8a5172
+<<<<<<< HEAD
 timeCreated: 1445131383
 licenseType: Free
 PluginImporter:
@@ -58,6 +59,30 @@ PluginImporter:
       settings:
         CompileFlags: 
         FrameworkDependencies: 
+=======
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 

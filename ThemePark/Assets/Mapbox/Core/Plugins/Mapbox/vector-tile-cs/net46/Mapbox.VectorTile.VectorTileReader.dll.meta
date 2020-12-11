@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 57cd912f9e6427a44ac217871c381c40
 timeCreated: 18446744011573954816
 PluginImporter:
@@ -108,3 +109,6 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: 57cd912f9e6427a44ac217871c381c40
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143

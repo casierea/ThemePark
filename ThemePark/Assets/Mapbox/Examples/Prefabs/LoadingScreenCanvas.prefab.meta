@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: b95c449128f3b44bca8b83258c669aa5
+<<<<<<< HEAD
 timeCreated: 1512238173
 licenseType: Pro
 NativeFormatImporter:
   mainObjectFileID: 100100000
+=======
+PrefabImporter:
+  externalObjects: {}
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: becc811ca916a4717bf81685180e605d
+<<<<<<< HEAD
 timeCreated: 1520010402
 licenseType: Pro
+=======
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
