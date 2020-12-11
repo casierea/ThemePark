@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: c0adcaeba3022437293536832628fdf8
 PrefabImporter:
@@ -5,3 +6,12 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: c0adcaeba3022437293536832628fdf8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143

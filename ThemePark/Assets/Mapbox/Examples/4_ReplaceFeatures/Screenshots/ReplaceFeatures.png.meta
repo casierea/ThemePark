@@ -6,7 +6,11 @@ TextureImporter:
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
     enableMipMap: 0
+=======
+    enableMipMap: 1
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -33,6 +37,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
+<<<<<<< HEAD
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -42,6 +47,17 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+=======
+    aniso: 2
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,20 +66,34 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
+<<<<<<< HEAD
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+=======
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -72,10 +102,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -84,10 +121,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,10 +140,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,10 +159,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -120,14 +178,22 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
     forceMaximumCompressionQuality_BC6H_BC7: 1
+=======
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
+=======
+    spriteID: 
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
     internalID: 0
     vertices: []
     indices: 

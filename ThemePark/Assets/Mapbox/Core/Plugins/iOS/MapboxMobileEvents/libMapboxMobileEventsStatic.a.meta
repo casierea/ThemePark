@@ -12,6 +12,7 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+<<<<<<< HEAD
       '': Any
     second:
       enabled: 0
@@ -36,12 +37,18 @@ PluginImporter:
       Any: 
     second:
       enabled: 0
+=======
+      Any: 
+    second:
+      enabled: 1
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
       settings: {}
   - first:
       Editor: Editor
     second:
       enabled: 0
       settings:
+<<<<<<< HEAD
         CPU: AnyCPU
         DefaultValueInitialized: true
         OS: AnyOS
@@ -101,6 +108,9 @@ PluginImporter:
         AddToEmbeddedBinaries: false
         CompileFlags: 
         FrameworkDependencies: 
+=======
+        DefaultValueInitialized: true
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 

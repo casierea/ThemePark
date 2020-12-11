@@ -316,9 +316,15 @@ namespace Mapbox.Unity.Location
 							// atan2 increases angle CCW, flip sign of latDiff to get CW
 							double latDiff = -(_lastPositions[i].x - _lastPositions[i - 1].x);
 							double lngDiff = _lastPositions[i].y - _lastPositions[i - 1].y;
+<<<<<<< HEAD
 							// +90.0 to make top (north) 0Â°
 							double heading = (Math.Atan2(latDiff, lngDiff) * 180.0 / Math.PI) + 90.0f;
 							// stay within [0..360]Â° range
+=======
+							// +90.0 to make top (north) 0°
+							double heading = (Math.Atan2(latDiff, lngDiff) * 180.0 / Math.PI) + 90.0f;
+							// stay within [0..360]° range
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
 							if (heading < 0) { heading += 360; }
 							if (heading >= 360) { heading -= 360; }
 							lastHeadings[i - 1] = (float)heading;
@@ -327,7 +333,11 @@ namespace Mapbox.Unity.Location
 						_userHeadingSmoothing.Add(lastHeadings[0]);
 						float finalHeading = (float)_userHeadingSmoothing.Calculate();
 
+<<<<<<< HEAD
 						//fix heading to have 0Â° for north, 90Â° for east, 180Â° for south and 270Â° for west
+=======
+						//fix heading to have 0° for north, 90° for east, 180° for south and 270° for west
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
 						finalHeading = finalHeading >= 180.0f ? finalHeading - 180.0f : finalHeading + 180.0f;
 
 

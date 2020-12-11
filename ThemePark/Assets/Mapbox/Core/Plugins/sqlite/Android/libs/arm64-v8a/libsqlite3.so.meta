@@ -5,6 +5,7 @@ PluginImporter:
   serializedVersion: 2
   iconMap: {}
   executionOrder: {}
+<<<<<<< HEAD
   isPreloaded: 0
   isOverridable: 0
   platformData:
@@ -32,12 +33,25 @@ PluginImporter:
       Any: 
     second:
       enabled: 0
+=======
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
       settings: {}
   - first:
       Editor: Editor
     second:
       enabled: 0
       settings:
+<<<<<<< HEAD
         CPU: AnyCPU
         DefaultValueInitialized: true
         OS: AnyOS
@@ -89,6 +103,9 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: AnyCPU
+=======
+        DefaultValueInitialized: true
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 

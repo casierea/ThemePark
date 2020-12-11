@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: a00620409803a41f598cabed0c2ecf9f
 PluginImporter:
+<<<<<<< HEAD
   serializedVersion: 1
   iconMap: {}
   executionOrder: {}
@@ -65,6 +66,29 @@ PluginImporter:
       settings:
         CompileFlags: 
         FrameworkDependencies: 
+=======
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+>>>>>>> 70a0f9f16ad177f4b21438af99ef17e541da6143
   userData: 
   assetBundleName: 
   assetBundleVariant: 
